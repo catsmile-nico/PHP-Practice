@@ -1,0 +1,65 @@
+body {
+    background-color: #000;
+}
+
+.task_input {
+    width: 80%;
+    height: 15px;
+    padding: 10px;
+}
+
+.task_btn {
+    float: right;
+    height: 40px;
+    padding: 5px 20px;
+    background: #ffffff;
+    color: #137a7f;
+    border: none;
+    
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th {
+    text-align: left;
+    font-size: 19px;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+    color: #ffffff;
+}
+
+tbody tr:hover {
+    box-shadow: 0px -5px 12px rgba(0, 255, 255, 0.5), 0px 5px 12px rgba(0, 255, 255, 0.5);
+}
+
+
+.task {
+    text-align: left;
+}
+.remove {
+    text-align: right;
+}
+
+.remove a{
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.alertmsg {
+    text-align: center;
+    background-color:#137a7f;
+    color: #fff; 
+}
