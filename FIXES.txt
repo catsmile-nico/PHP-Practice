@@ -1,10 +1,25 @@
+=== PHP
 --- phpinfo() not displaying in test.php
-# sudo apt-get install php libapache2-mod-php
-# sudo a2enmod mpm_prefork && sudo a2enmod php7.0
-# sudo service apache2 restart
+	# sudo apt-get install php libapache2-mod-php
+	# sudo a2enmod mpm_prefork && sudo a2enmod php7.0
+	# sudo service apache2 restart
 
 
+=== phpmyadmin
 --- localhost/phpmyadmin not working after installation
-# sudo vi /etc/apache2/apache2.conf
-> Include /etc/phpmyadmin/apache.conf	//add line to the end of the file.
-# sudo service apache2 restart
+	# sudo vi /etc/apache2/apache2.conf
+	> Include /etc/phpmyadmin/apache.conf	//add line to the end of the file.
+	# sudo service apache2 restart
+
+
+=== LARAVEL 
+--- laravel command not working after install	# vi ~/.bashrc
+	> alias laravel='~/.config/composer/vendor/bin/laravel'
+	# source ~/.bashrc
+	# laravel new project
+
+--- Command "make:auth" is not defined	# composer require laravel/ui
+	# php artisan ui vue --auth
+
+--- could not find driver (SQL: PRAGMA foreign_keys = ON;)	
+	# sudo apt-get install php-sqlite3

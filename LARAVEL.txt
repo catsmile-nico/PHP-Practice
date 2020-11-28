@@ -1,0 +1,16 @@
+=== Environments・Tools
+Laravel			PHP framework
+Composer		PHP dependency package manager
+npm			Javascript dependency package manager
+php artisan		CLI tool that comes with Laravel, to interact with application
+php artisan migrate 	Modify database indirectly and systematically 
+		        Tool to create migration files to describe database
+		        Files to tell database to create itself
+	
+
+=== Laravel ./resources
+views > *.blade			rendering template for php snippets
+views > welcome.blade		homepage 
+views > home.blade		view after login
+js > components > app.js	app.js to work with (not the one in public)
+js > sass > app.scss		file to work with for CSS
