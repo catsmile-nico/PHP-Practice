@@ -19,16 +19,23 @@ Laravel Environment installation (Laravel projects only)
 ## Cheatsheets
 [LARAVEL](LARAVEL.txt)  
 
-## Development (non-laravel)
-1) Launch development env - Launch Terminal > "wsl" > "cd {project directory}" > "code ."  
-2) Start services - (In Terminal) sudo service apache2 start && sudo service mysql start  
-3) Launch localhost - Browser > localhost/{projectName}  
-4) Edit code  
-
 ## Development (laravel)
 1) Launch development env - Launch Terminal > "wsl" > "cd {project directory}" > "code ."  
 2) Start services - (In Terminal) php artisan serve  
 3) Launch localhost - Step 2 output  
+4) Edit code  
+
+## IGClone (laravel)
+
+```
+Description : Instagram clone using laravel framework
+Functions : Login, TBD
+```
+
+## Development (non-laravel)
+1) Launch development env - Launch Terminal > "wsl" > "cd {project directory}" > "code ."  
+2) Start services - (In Terminal) sudo service apache2 start && sudo service mysql start  
+3) Launch localhost - Browser > localhost/{projectName}  
 4) Edit code  
 
 ## TODOList (non-laravel)
@@ -40,9 +47,3 @@ Laravel Environment installation (Laravel projects only)
 Functions: Add/Remove task, click to copy task contents
 ```
 
-## IGClone (laravel)
-
-```
-Description : Instagram clone using laravel framework
-Functions : Login, TBD
-```
