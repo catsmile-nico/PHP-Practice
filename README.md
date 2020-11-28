@@ -1,6 +1,4 @@
-# PHP-Practice
-
-## Environment
+# Environment
 WSL, VSCode, Nodejs, Terminal installation (Nodejs - for Laravel projects only)  
  > https://github.com/catsmile-nico/Nodejs-Practice  
 
@@ -12,14 +10,13 @@ Laravel Environment installation (Laravel projects only)
  > https://getcomposer.org/doc/00-intro.md#globally  // refer to globally  
  > https://laravel.com/docs/8.x/installation  
 
-
 ## Environment Fixes
 [FIXES.txt](FIXES.txt)  
 
 ## Cheatsheets
 [LARAVEL](LARAVEL.txt)  
 
-## Development (laravel)
+# Development (laravel)
 1) Launch development env - Launch Terminal > "wsl" > "cd {project directory}" > "code ."  
 2) Start services - (In Terminal) php artisan serve  
 3) Launch localhost - Step 2 output  
@@ -32,7 +29,7 @@ Description : Instagram clone using laravel framework
 Functions : Login, TBD
 ```
 
-## Development (non-laravel)
+# Development (non-laravel)
 1) Launch development env - Launch Terminal > "wsl" > "cd {project directory}" > "code ."  
 2) Start services - (In Terminal) sudo service apache2 start && sudo service mysql start  
 3) Launch localhost - Browser > localhost/{projectName}  
