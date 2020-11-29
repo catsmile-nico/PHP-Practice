@@ -23,6 +23,7 @@ Laravel Environment installation (Laravel projects only)
 4) Edit code  
 
 ## IGClone (laravel)
+<img src="IGClone/sample_main.png" alt="sample image main" width="200" height="280"> 
 
 ```
 Description : Instagram clone using laravel framework
@@ -36,9 +37,7 @@ Functions : Login, TBD
 4) Edit code  
 
 ## TODOList (non-laravel)
-<p float="left">
-  <img src="TODOList/sample_main.png" alt="sample image main" width="200" height="280">  
-</p>
+<img src="TODOList/sample_main.png" alt="sample image main" width="200" height="280"> 
 
 ```
 Functions: Add/Remove task, click to copy task contents
