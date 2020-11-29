@@ -3,14 +3,43 @@ Laravel			PHP framework
 Composer		PHP dependency package manager
 npm			Javascript dependency package manager
 php artisan		CLI tool that comes with Laravel, to interact with application
-php artisan migrate 	Modify database indirectly and systematically 
-		        Tool to create migration files to describe database
-		        Files to tell database to create itself
 	
 
-=== Laravel ./resources
-views > *.blade			rendering template for php snippets
-views > welcome.blade		homepage 
-views > home.blade		view after login
-js > components > app.js	app.js to work with (not the one in public)
-js > sass > app.scss		file to work with for CSS
+=== Laravel file structure
+database > migrations			database instructions {php artisan migrate}
+app > Http > Controllers		fetch, manipulate data (calculations, queries)
+routes > web.php			web routes within the application i.e. /home /index /login
+resources > views			render things in their respective location
+resources > views > *.blade		rendering template for php snippets
+resources > views > welcome.blade	homepage 
+resources > views > home.blade		view after login
+resources > js > components > app.js	app.js to work with (not the one in public)
+resources > js > sass > app.scss	file to work with for CSS
+
+
+=== php artisan
+php artisan tinker	application emultator
+		  ￥	e.g. to show application's users
+		  ￥	>>> User::all();
+		  ￥	e.g. add profile
+		  ￥	>>> $profile = new \App\Models\Profile();
+		  ￥	>>> $profile->title = 'No cats here';
+		  ￥	>>> $profile->description = 'Some cat description';
+		  ￥	>>> $profile->user_id = 1;
+		  ￥	>>> $profile->save();
+
+php artisan migrate 	Modify database indirectly and systematically 
+		   ￥   Tool to create migration files to describe database
+		   ￥	Files to tell database to create itself
+		   ￥	※use whenever edit database
+	migrate:fresh	erase entire database
+
+php artisan make:Controller <classname>		create controller class with classname
+
+php artisan make:model <name>			creates Eloquent model class
+			　　　　￥		   	// Eloquent is implementation laravel uses to fetch queries and such 
+			　　　　￥		   	(can fetch from sqlite, sql, etc. using same eloquent queries)
+
+
+=== MISC
+put phpinfo(); in public/index.php to see php information i.e. php.ini location
