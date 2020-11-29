@@ -44,7 +44,7 @@ Functions: Add/Remove task, click to copy task contents
 ```
 
 # Courses & References
-<img src="sololearn-certphp-1059-15106323.jpg" alt="sample image main" height="280"> 
+<img src="sololearn-certphp-1059-15106323.jpg" alt="sample image main" height="200"> 
 
 ```
 SoloLearn is an online and mobile learning platform that allows users to learn a variety of programming languages and concepts through short lessons, code challenges, and quizzes.
